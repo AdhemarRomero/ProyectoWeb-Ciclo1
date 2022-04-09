@@ -1,0 +1,252 @@
+ * {
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+}
+
+#contgeneral {
+    width: 100%;  
+    background-color: #060c15;
+    /*background-image: linear-gradient(100deg#77c97e,#8495e9,#5667be,#475cc2);*/ 
+}
+
+/*header*/
+
+header {
+    background-color: #060c15;
+}
+div.social{
+    margin-top: 20px;
+    margin-left: 13%;
+}
+
+div.header{
+    display: flex;
+    justify-content: space-around;
+}
+
+.nav-section {
+    margin: 50px 1%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.nav-section a {
+    color: white;
+    padding: 0 30px;
+    margin: 5px;
+    border-radius: 15px;
+    font-size: 23px;
+}
+
+#posicion {
+    border: 2px solid rgb(253, 169, 14);
+}
+
+.nav-section a:hover {
+    color: rgb(253, 169, 14);
+    font-size: 25px;;
+}
+
+div.buscar {
+    display: flex;
+    margin-top: 38px;
+}
+nav h1 {
+    padding: 20px 10px;
+    font-size: 60px;
+    font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+    text-shadow: -4px 2px 4px rgb(255 255 255);
+}
+
+div.ajustar {
+    display: flex;
+    flex-direction: column;
+    margin-right: 20px;
+}
+
+.buscar input {
+    border: none;
+    height: 30px;
+    width: 200px;
+    border-radius: 25px;
+    padding: 0px 15px 0px 30px;
+    background-image: url(../img/lupa.png);
+    background-size: 15px;
+    background-repeat: no-repeat;
+    background-position: 7px 7px;
+}
+
+div.social img{
+    padding: 0 5px 20px;
+}
+div.social img:hover{
+    padding-bottom: 5px;
+}
+hr {
+    margin: 5px 0;
+    border: 0 none orange;
+    border-top: 1px solid orange;
+    height: 1px;
+    display: block;
+    clear: both;
+}
+/*header*/
+
+/*main*/
+#cuerpo {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.flex {
+    width: 70%;
+}
+
+h1 {
+    text-align: center;
+    font-size: 50px;
+    margin: 20px;
+    color: orange;
+    font-family: 'Carter One', cursive;
+}
+
+h2 {
+    display: inline-block;
+    font-size: 35px;
+    margin-top: 25px;
+    color: orange;
+    font-family: 'Carter One', cursive;
+}
+
+.contenedor1 {
+    /*border: 5px solid black;*/
+    justify-content: center;
+    margin: 10px auto 35px;
+    display: inline-flex;
+    flex-direction: row;
+    width: 100%;
+}
+
+
+article{
+    /*box-shadow: rgb(195 46 46 / 21%) 4px 2px 12px 6px;*/
+    background-color: rgb(34, 34, 36);
+    border-radius: 10px;
+    padding: 20px;
+    border: 3px solid orange;     
+    margin: 10px 5px;     
+    text-align: center;
+    width: 25%;
+}
+
+article img {
+    margin: 2px auto;     
+    display: block;     
+    border-radius: 8px;
+    width: 100%;
+}
+
+article p {
+    color: white;
+    font-family: 'Josefin Sans', sans-serif;
+    text-align: justify;
+}
+
+article h3 {
+    color: orange;
+    margin: 10px;
+    font-family: 'Carter One', cursive;
+}
+
+a {
+    text-decoration: none;
+    color: orange;
+}
+
+a:hover {
+    color: rgb(253, 109, 57);
+}
+
+#lomejor {
+    height: 450px;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+}
+
+.movie video {
+    margin: 5px 0px;
+    height: 400px;
+    width: 100%;
+}
+
+#lomejor .movie {
+    width: 50%;
+    height: auto;
+}
+
+#lomejor .textmovie {
+    width: 50%;
+    margin-left: 15px;
+}
+.textmovie h3 {
+    margin: 80px 0px 20px 0px;
+    padding-left: 30px;
+    font-size: 25px;
+    color: orange;
+}
+
+.textmovie p {
+    padding: 0px 30px;
+    color: white;
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+.textmovie a {
+    padding-left: 30px;
+}
+
+#vistos {
+    height: 450px;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+}
+#vistos .movie {
+    width: 50%;
+    height: auto;
+}
+
+#vistos .textmovie {
+    width: 50%;
+    margin-left: 15px;
+}
+
+.contenedor2 {
+    justify-content: center;
+    margin:10px     auto;
+    display: inline-flex;
+    flex-direction: row;
+    width: 100%;
+}
+/*main*/
+
+/*footer*/
+footer {
+    background-color: #081220;
+    padding: 40px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 50px;
+    font-size: 120%;
+}
+
+footer div p {
+    color: white;
+}
+/*footer*/
+

@@ -1,0 +1,166 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    background-color: #060c15;
+}
+
+
+
+/* Header*/
+
+header {
+    background-color: #060c15;
+    border-bottom: 1px solid orange;
+}
+div.social{
+  margin-top: 20px;
+  margin-left: 3%;
+  
+}
+div.header{
+  display: flex;
+  justify-content: space-around;
+}
+
+a {
+    text-decoration: none;
+}
+
+.nav-section {
+  margin: 50px 1%;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.nav-section a {
+    color: white;
+    padding: 0 30px;
+    margin: 5px;
+    border-radius: 15px;
+    font-size: 23px;
+}
+
+.nav-section a:hover {
+    color: rgb(253, 169, 14);
+   font-size: 25px;;
+}
+
+header div.buscar input {
+  display: flex;
+  margin-top: 38px;
+}
+#posicion {
+    border: 2px solid rgb(253, 169, 14);
+    border-radius: 20px;
+    padding: 4px 20px;
+}
+
+div.ajustar {
+    display: flex;
+    flex-direction: column;
+}
+
+.buscar input {
+    border: none;
+    height: 30px;
+    width: 200px;
+    border-radius: 25px;
+    padding: 0px 15px 0px 30px;
+    background-image: url(../img/lupa.png);
+    background-size: 15px;
+    background-repeat: no-repeat;
+    background-position: 7px 7px;
+}
+
+div.social img{
+    padding: 0 10px 20px;
+  }
+div.social img:hover{
+    padding-bottom: 5px;
+}
+
+/* footer */
+footer {
+    background-color: #081220;
+    padding: 40px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    color: white;
+    font-size: 110%;
+  }
+
+/*Arriba*/
+
+div.arriba {
+    display: flex;
+    border-radius: 15px;
+    width: 100px;  
+    height: 100px;
+     justify-content: space-between;
+}
+div.arriba a {
+    background-image: linear-gradient(
+      to right,
+      #242323 0%,
+      #616161 51%,
+      #242323 100%
+    );
+  }
+  div.arriba a {
+    margin: 40px;
+    text-transform: uppercase;
+    transition: 0.4s;
+    background-size: 200% auto;
+    color: rgb(0, 0, 0);
+    box-shadow: 3px 1px 11px 0px rgb(207 200 200);
+    border-radius: 10px;
+    display: block;
+    
+  }
+  
+  div.arriba a:hover {
+    background-position: right center; 
+    color: #fff;
+    text-decoration: none;
+}
+nav h1 {
+    font-size: 60px;
+    font-family:'Carter One',cursive;
+    color: orange;
+}
+div.arriba {
+    display: flex;
+    border-radius: 15px;
+    width: 100%;
+    height: 200%;
+    justify-content: space-between;
+}
+div.arriba a {
+    color: rgb(255, 255, 255);
+    text-align: center;
+    width: 20%;
+    text-decoration: none;
+    font-size: 19px;
+    font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+}
+div.arriba a:hover {
+    background-color: rgb(81, 81, 131);
+    color: white;
+    padding: 10px;
+}
+div.contener {
+    padding: 5% 15%;
+    flex: 1;
+    align-items: center;
+  }
+
+#contenedor{
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
